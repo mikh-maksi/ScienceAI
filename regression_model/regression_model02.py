@@ -8,3 +8,5 @@ polyline = np.linspace(2, 13, 13)
 plt.scatter(x, y)
 plt.plot(polyline, model(polyline))
 plt.show()
+
+print(model)
